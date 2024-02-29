@@ -1,1 +1,5 @@
-# css_avanzado_desafio02_DCV
+# Desafio E-comerce
+
+## Descripción
+
+Proyecto realizado para ....

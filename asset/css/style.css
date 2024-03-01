@@ -4,24 +4,19 @@
 }
 
 :root{
-    /* --nombre_variable: valor; */
-    /* --borde_ej: 1px solid red; */
     --primary: orange;
 }
 
     .header {
-        border: var(--borde_ej);
-
         grid-area: a;
         height: 100px;
         text-align: center;
+        padding: 20px;
 
         background-color: var(--primary);
     }
 
     .sidebar {
-        border: var(--borde_ej);
-
         grid-area: b;
         width: auto;
         min-height: 500px;
@@ -32,8 +27,6 @@
     }
 
     .products {
-        border: var(--borde_ej);
-
         grid-area: c;
         height: auto;
         width: auto;
@@ -45,8 +38,6 @@
     }
 
     .footer {
-        border: var(--borde_ej);
-
         grid-area: d;
         height: 100px;
 
@@ -54,8 +45,6 @@
     }
 
 .grid-boxes {
-    border: var(--borde_ej);
-
     display: grid;
     grid-template-areas: 
     "a a a"
@@ -63,13 +52,16 @@
     "d d d";
 }
 
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
 .products {
     padding: 20px;
 }
 
 h3 {
-    border: var(--borde_ej);
-
     margin: 15px;
 }
 
@@ -77,16 +69,16 @@ a {
     color: black;
     text-decoration: none;
     margin: 15px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(220, 220, 220);
 }
 
-h1 {
-    font-size: 50px;
-    color: white;
+a:hover {
+    color: var(--primary);
+    font-weight: 900;
 }
 
 .producto {
-    border: var(--borde_ej);
-
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
